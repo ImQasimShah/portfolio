@@ -181,4 +181,20 @@ padding-top: 50px;
         width: 310px;
         margin-top: 33px;
     }
+
+    .maindiv {
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-inline: 30px;
+        padding-top: 100px;
+    }
+    .mainparentdiv {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-inline: 20px;
+        padding-top: 20px;
+    }
 }
