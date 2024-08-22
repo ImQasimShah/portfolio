@@ -155,6 +155,61 @@ padding-top: 50px;
 
 
 
+.cardcontent{
+    text-align: center;
+    padding-block: 50px;
+}
+
+.maicardflex{
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+    margin-inline: 60px;
+    justify-content: space-between;
+}
+
+
+.cardcontent h1{
+    font-size: 40px;
+    padding-block: 10px;
+}
+
+.cardcontent span{
+    color: var(--bluecolor);
+}
+
+.cardcontent p{
+    font-size: 16px;
+}
+
+.card{
+border: 1px solid gainsboro;
+    text-align: center  ;
+    padding: 30px;
+    transition: 1s;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.card .icon{
+    font-size: 40px;
+}
+
+.card:hover{
+    background-color: var(--bluecolor);
+    color: #fff;
+    cursor: pointer;
+    transition: 1s;
+}
+.card h2{
+    font-size: 16px;
+    padding-block: 10px;
+}
+
+.card p{
+    font-size: 14px;
+}
+
 @media screen and (max-width:500px) {
     .content h1 {
         font-size: 40px;
@@ -171,11 +226,12 @@ padding-top: 50px;
 
     .ex1 h1 {
         /* border: 2px solid red; */
-        font-size: 40px;
+        font-size: 30px;
         text-align: center;
     }
     .ex1 h2{
         font-size: 20px;
+        text-align: center;
     }
     .qasimimg img {
         width: 310px;
@@ -196,5 +252,30 @@ padding-top: 50px;
         justify-content: space-between;
         padding-inline: 20px;
         padding-top: 20px;
+    }
+
+    .btn button {
+        padding: 8px 14px;
+        border: 1px solid var(--bluecolor);}
+        
+
+    .maicardflex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+
+        margin-bottom: 10px;
+    }
+
+    .cardcontent h1 {
+        font-size: 25px;
+        padding-block: 10px;
+    }
+
+    .cardcontent p{
+        font-size: 14px;
     }
 }
