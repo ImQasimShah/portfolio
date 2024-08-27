@@ -210,6 +210,110 @@ border: 1px solid gainsboro;
     font-size: 14px;
 }
 
+
+
+.maindiv1{
+    display: flex;
+    gap: 50px;
+    padding-inline: 120px;
+    padding-block: 70px;
+    background-color: #100935;
+    color: #ffff;
+}
+
+.maindiv1 button{
+    background-color: var(--bluecolor);
+}
+
+
+.maindiv1 p{
+    padding-block: 20px;
+}
+
+.maindiv1 button{
+    padding: 8px 30px;
+    border: 1px solid var(--bluecolor);
+    background: transparent;
+border-radius: 20px;
+font-size: 15px;
+cursor: pointer;
+color: #ffff;
+transition: 1s;
+}
+
+.maindiv1 button:hover{
+    background-color: var(--bluecolor);
+    color: #fff;
+    transition: 1s;
+}
+
+.showcard{
+    text-align: center;
+    padding-block: 30px;
+}
+
+
+.showcard span{
+    color: var(--bluecolor);
+}
+
+
+
+.mainpicdiv{
+    display: flex   ;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.mainpicdiv img{
+    width: 400px;
+}
+
+
+
+
+
+.swiper {
+    width:80%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .centercarddiv{
+    padding: 41px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+  }
+
+  .swiperimg{
+    display: flex;
+    justify-content: center;
+    width: 100px !important;
+  }
+
+
+
+
 @media screen and (max-width:500px) {
     .content h1 {
         font-size: 40px;
